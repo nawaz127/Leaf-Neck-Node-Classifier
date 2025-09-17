@@ -1,0 +1,8 @@
+data_dir: E:\Project\leaf-neck-node-classifier\data
+img_size: 256           # a bit larger helps fine details
+epochs: 50            # give it more time
+learning_rate: 0.001    # with cosine schedule; WD stays 0.01 in code
+batch_size: 32
+model_name: resnet18    # you can test mobilenetv3 after baseline improves
+use_amp: true
+

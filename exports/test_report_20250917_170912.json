@@ -1,0 +1,33 @@
+{
+  "leaf": {
+    "precision": 0.3488372093023256,
+    "recall": 0.15,
+    "f1-score": 0.2097902097902098,
+    "support": 100.0
+  },
+  "neck": {
+    "precision": 0.9583333333333334,
+    "recall": 0.46,
+    "f1-score": 0.6216216216216216,
+    "support": 100.0
+  },
+  "node": {
+    "precision": 0.44019138755980863,
+    "recall": 0.92,
+    "f1-score": 0.5954692556634305,
+    "support": 100.0
+  },
+  "accuracy": 0.51,
+  "macro avg": {
+    "precision": 0.5824539767318225,
+    "recall": 0.51,
+    "f1-score": 0.4756270290250873,
+    "support": 300.0
+  },
+  "weighted avg": {
+    "precision": 0.5824539767318225,
+    "recall": 0.51,
+    "f1-score": 0.4756270290250873,
+    "support": 300.0
+  }
+}
