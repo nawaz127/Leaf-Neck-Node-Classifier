@@ -25,18 +25,17 @@ A deep learning project to classify rice plant diseases (Leaf, Neck, Node) using
 - **Overall Accuracy:** `66%` (baseline ResNet18, 30 epochs, img_size=256)  
 - Confusion matrices (counts + normalized) are saved in `exports/`.
 
-<p align="center">
-  <img src="E:\Project\leaf-neck-node-classifier\docs\confusion_matrix_counts_20250917_173553.png" alt="Confusion Matrix" width="400"/>
-  <img src="E:\Project\leaf-neck-node-classifier\docs\confusion_matrix_norm_20250917_173553.png" alt="Normalized Confusion Matrix" width="400"/>
-</p>
+## Results
 
-<p align="center">
-  <img src='E:\Project\leaf-neck-node-classifier\docs\(290)1.jpg' alt="Upload Panel" width="400"/>
-  <img src="E:\Project\leaf-neck-node-classifier\docs\Screenshot 2025-09-17 225158.png" alt="Prediction Result" width="400"/>
-</p>
+![Confusion Matrix](docs/confusion_counts.png)
+![Normalized Confusion Matrix](docs/confusion_norm.png)
 
 
 ## 🖥️ Streamlit App
+
+![Upload Panel](docs/app_upload.png)
+![Prediction Result](docs/app_result.jpg)
+
 
 - Upload an image (`.jpg`/`.png`)
 - Model predicts **Leaf / Neck / Node**
