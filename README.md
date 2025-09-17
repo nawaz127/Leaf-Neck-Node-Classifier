@@ -33,8 +33,8 @@ A deep learning project to classify rice plant diseases (Leaf, Neck, Node) using
 
 ## 🖥️ Streamlit App
 
-![Upload Panel](docs/app_upload.png)
-![Prediction Result](docs/app_result.jpg)
+![Upload Panel](docs\app_upload.png)
+![Prediction Result](docs\app_results.png)
 
 
 - Upload an image (`.jpg`/`.png`)
